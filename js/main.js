@@ -92,12 +92,38 @@
 // console.log ("Второе число: ", second);
 // console.log ("Остальные числа:", rest);
 
-console.log("Практическое задание");
-const a1 = [1, 2, 3];
-const a2 = [4, 5, 6];
-const combined = [...a1,...a2];
-console.log("Объединеный массив: ", combined );
-function findMax(...numbers) {
-     return numbers.reduce((total, num) => total + num, 0);
- }
+// console.log("Практическое задание");
+// const a1 = [1, 2, 3];
+// const a2 = [4, 5, 6];
+// const combined = [...a1,...a2];
+// console.log("Объединеный массив: ", combined );
+// function findMax(...numbers) {
+//      return numbers.reduce((total, num) => total + num, 0);
+//  }
 
+// export function greet(name){
+//     return `Привет, ${name}!`;
+// }
+// export function add(a, b){
+//     return a + b;
+// }
+// export function multiply(a,b){
+//     return a * b;
+// }
+// export const PI = 3.14159;
+// export default function sayHello() {
+//     return "Привет из модуля utils!";
+// }
+// import {greet, add, PI} from "./until.js";
+// console.log("Модули");
+// console.log(greet("Алексей"));
+// console.log("5 + 3 =", add(5, 3));
+// console.log("Значение PI: ", PI);
+
+// import { multiply as умножить} from "./until.js";
+// console.log("4 * 7 =", умножить(4, 7));
+// import * as Utils from "./until.js";
+// console.log(Utils.greet("Диана"));
+// console.log("Умножение:", Utils.multiply(3, 9));
+
+//Практическое задание 8.5
