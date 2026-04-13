@@ -127,3 +127,7 @@
 // console.log("Умножение:", Utils.multiply(3, 9));
 
 //Практическое задание 8.5
+import { square, cube, E } from './math.js';
+console.log(`Квадрат числа 5: ${square(5)}`); 
+console.log(`Куб числа 3: ${cube(3)}`);   
+console.log(`Значение E: ${E}`); 
